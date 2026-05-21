@@ -7,7 +7,7 @@ if len(sys.argv) == 1:
 	sys.exit()
 for word in sys.argv[1:]:
 	if word.endswith("ism"):
-		print(word)
+		continue
 	else:
 		print(word + "ism")
 	
